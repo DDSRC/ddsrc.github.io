@@ -3,77 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>DDSRC</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            background-color: #111;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-family: 'Courier New', monospace;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            padding: 20px;
-        }
-
-        .text {
-            font-size: 1.5rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        a {
-            color: #4eaaff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .image-wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .image-wrapper img {
-            max-width: 30%;
-            height: auto;
-            margin-bottom: 8px;
-        }
-
-        .image-caption {
-            font-size: 0.8rem;
-            color: #aaa;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="text">
-            <p>
-                Hello, and welcome to <strong>DDSRC</strong> official website!<br><br>
-                DDSRC is a small research group of students from
-                <a href="https://mmcs.sfedu.ru" target="_blank">MMCS SFEDU</a>.<br><br>
-                We are here to boost our skills, run development cycle of our projects, and help with creating and publishing our research.<br><br>
-                Stay here for updates! 🛠️
-            </p>
-        </div>
-        <div class="image-wrapper">
-            <img src="./images/adachi_rei.jpg" alt="placeholder image">
-            <div class="image-caption">
-                Source: <a href="https://danbooru.donmai.us/posts/9131687?q=adachi_rei" target="_blank">danbooru.donmai.us</a>
+    <main>
+        <article>
+            <div class="container">
+                <h1>Hello, and welcome to <strong>DDSRC</strong> official website!</h1>
+                <p>
+                    DDSRC is a small research group of students from
+                    <a href="https://mmcs.sfedu.ru" hreflang="ru" target="_blank">MMCS SFEDU</a>.
+                </p>
+                <p>
+                    We are here to boost our skills, run development cycle of our projects, and help with creating and publishing our research.
+                </p>
+                <h2>Stay here for updates! 🛠️</h2>
+
+                <figure class="image-wrapper">
+                    <img src="./images/adachi_rei.jpg" alt="Portrait of Adachi Rei.">
+                    <figcaption class="image-caption">
+                        Source: <a href="https://danbooru.donmai.us/posts/9131687?q=adachi_rei" target="_blank">danbooru.donmai.us</a>
+                    </figcaption>
+                </figure>
             </div>
-        </div>
-    </div>
+        </article>
+    </main>
 </body>
 
 </html>
