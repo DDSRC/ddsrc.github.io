@@ -23,13 +23,19 @@ main {
 }
 
 h1, h2 {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .container p {
     font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 30px;
+}
+
+.container li {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 a {
